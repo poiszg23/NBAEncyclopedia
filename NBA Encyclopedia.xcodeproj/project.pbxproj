@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECDDDD8920E843810098D7A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDDD8820E843810098D7A3 /* AppDelegate.swift */; };
+		ECDDDD8B20E843810098D7A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDDD8A20E843810098D7A3 /* ViewController.swift */; };
+		ECDDDD8E20E843810098D7A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDDDD8C20E843810098D7A3 /* Main.storyboard */; };
+		ECDDDD9020E843820098D7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDDDD8F20E843820098D7A3 /* Assets.xcassets */; };
+		ECDDDD9320E843820098D7A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDDDD9120E843820098D7A3 /* LaunchScreen.storyboard */; };
+		ECDDDD9E20E843820098D7A3 /* NBA_EncyclopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDDD9D20E843820098D7A3 /* NBA_EncyclopediaTests.swift */; };
+		ECDDDDA920E843820098D7A3 /* NBA_EncyclopediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDDDA820E843820098D7A3 /* NBA_EncyclopediaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECDDDD9A20E843820098D7A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECDDDD7D20E843810098D7A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECDDDD8420E843810098D7A3;
+			remoteInfo = "NBA Encyclopedia";
+		};
+		ECDDDDA520E843820098D7A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECDDDD7D20E843810098D7A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECDDDD8420E843810098D7A3;
+			remoteInfo = "NBA Encyclopedia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECDDDD8520E843810098D7A3 /* NBA Encyclopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Encyclopedia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDDDD8820E843810098D7A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECDDDD8A20E843810098D7A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECDDDD8D20E843810098D7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECDDDD8F20E843820098D7A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECDDDD9220E843820098D7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECDDDD9420E843820098D7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDDDD9920E843820098D7A3 /* NBA EncyclopediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NBA EncyclopediaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDDDD9D20E843820098D7A3 /* NBA_EncyclopediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBA_EncyclopediaTests.swift; sourceTree = "<group>"; };
+		ECDDDD9F20E843820098D7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDDDDA420E843820098D7A3 /* NBA EncyclopediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NBA EncyclopediaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDDDDA820E843820098D7A3 /* NBA_EncyclopediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBA_EncyclopediaUITests.swift; sourceTree = "<group>"; };
+		ECDDDDAA20E843820098D7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECDDDD8220E843810098D7A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDDD9620E843820098D7A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDDDA120E843820098D7A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECDDDD7C20E843810098D7A3 = {
+			isa = PBXGroup;
+			children = (
+				ECDDDD8720E843810098D7A3 /* NBA Encyclopedia */,
+				ECDDDD9C20E843820098D7A3 /* NBA EncyclopediaTests */,
+				ECDDDDA720E843820098D7A3 /* NBA EncyclopediaUITests */,
+				ECDDDD8620E843810098D7A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECDDDD8620E843810098D7A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDDD8520E843810098D7A3 /* NBA Encyclopedia.app */,
+				ECDDDD9920E843820098D7A3 /* NBA EncyclopediaTests.xctest */,
+				ECDDDDA420E843820098D7A3 /* NBA EncyclopediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECDDDD8720E843810098D7A3 /* NBA Encyclopedia */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDDD8820E843810098D7A3 /* AppDelegate.swift */,
+				ECDDDD8A20E843810098D7A3 /* ViewController.swift */,
+				ECDDDD8C20E843810098D7A3 /* Main.storyboard */,
+				ECDDDD8F20E843820098D7A3 /* Assets.xcassets */,
+				ECDDDD9120E843820098D7A3 /* LaunchScreen.storyboard */,
+				ECDDDD9420E843820098D7A3 /* Info.plist */,
+			);
+			path = "NBA Encyclopedia";
+			sourceTree = "<group>";
+		};
+		ECDDDD9C20E843820098D7A3 /* NBA EncyclopediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDDD9D20E843820098D7A3 /* NBA_EncyclopediaTests.swift */,
+				ECDDDD9F20E843820098D7A3 /* Info.plist */,
+			);
+			path = "NBA EncyclopediaTests";
+			sourceTree = "<group>";
+		};
+		ECDDDDA720E843820098D7A3 /* NBA EncyclopediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDDDA820E843820098D7A3 /* NBA_EncyclopediaUITests.swift */,
+				ECDDDDAA20E843820098D7A3 /* Info.plist */,
+			);
+			path = "NBA EncyclopediaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECDDDD8420E843810098D7A3 /* NBA Encyclopedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDDDDAD20E843820098D7A3 /* Build configuration list for PBXNativeTarget "NBA Encyclopedia" */;
+			buildPhases = (
+				ECDDDD8120E843810098D7A3 /* Sources */,
+				ECDDDD8220E843810098D7A3 /* Frameworks */,
+				ECDDDD8320E843810098D7A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NBA Encyclopedia";
+			productName = "NBA Encyclopedia";
+			productReference = ECDDDD8520E843810098D7A3 /* NBA Encyclopedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECDDDD9820E843820098D7A3 /* NBA EncyclopediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDDDDB020E843820098D7A3 /* Build configuration list for PBXNativeTarget "NBA EncyclopediaTests" */;
+			buildPhases = (
+				ECDDDD9520E843820098D7A3 /* Sources */,
+				ECDDDD9620E843820098D7A3 /* Frameworks */,
+				ECDDDD9720E843820098D7A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECDDDD9B20E843820098D7A3 /* PBXTargetDependency */,
+			);
+			name = "NBA EncyclopediaTests";
+			productName = "NBA EncyclopediaTests";
+			productReference = ECDDDD9920E843820098D7A3 /* NBA EncyclopediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECDDDDA320E843820098D7A3 /* NBA EncyclopediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDDDDB320E843820098D7A3 /* Build configuration list for PBXNativeTarget "NBA EncyclopediaUITests" */;
+			buildPhases = (
+				ECDDDDA020E843820098D7A3 /* Sources */,
+				ECDDDDA120E843820098D7A3 /* Frameworks */,
+				ECDDDDA220E843820098D7A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECDDDDA620E843820098D7A3 /* PBXTargetDependency */,
+			);
+			name = "NBA EncyclopediaUITests";
+			productName = "NBA EncyclopediaUITests";
+			productReference = ECDDDDA420E843820098D7A3 /* NBA EncyclopediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECDDDD7D20E843810098D7A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Zachary Gong";
+				TargetAttributes = {
+					ECDDDD8420E843810098D7A3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					ECDDDD9820E843820098D7A3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ECDDDD8420E843810098D7A3;
+					};
+					ECDDDDA320E843820098D7A3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ECDDDD8420E843810098D7A3;
+					};
+				};
+			};
+			buildConfigurationList = ECDDDD8020E843810098D7A3 /* Build configuration list for PBXProject "NBA Encyclopedia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECDDDD7C20E843810098D7A3;
+			productRefGroup = ECDDDD8620E843810098D7A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECDDDD8420E843810098D7A3 /* NBA Encyclopedia */,
+				ECDDDD9820E843820098D7A3 /* NBA EncyclopediaTests */,
+				ECDDDDA320E843820098D7A3 /* NBA EncyclopediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECDDDD8320E843810098D7A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDDDD9320E843820098D7A3 /* LaunchScreen.storyboard in Resources */,
+				ECDDDD9020E843820098D7A3 /* Assets.xcassets in Resources */,
+				ECDDDD8E20E843810098D7A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDDD9720E843820098D7A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDDDA220E843820098D7A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECDDDD8120E843810098D7A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDDDD8B20E843810098D7A3 /* ViewController.swift in Sources */,
+				ECDDDD8920E843810098D7A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDDD9520E843820098D7A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDDDD9E20E843820098D7A3 /* NBA_EncyclopediaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDDDA020E843820098D7A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDDDDA920E843820098D7A3 /* NBA_EncyclopediaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECDDDD9B20E843820098D7A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECDDDD8420E843810098D7A3 /* NBA Encyclopedia */;
+			targetProxy = ECDDDD9A20E843820098D7A3 /* PBXContainerItemProxy */;
+		};
+		ECDDDDA620E843820098D7A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECDDDD8420E843810098D7A3 /* NBA Encyclopedia */;
+			targetProxy = ECDDDDA520E843820098D7A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECDDDD8C20E843810098D7A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDDDD8D20E843810098D7A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECDDDD9120E843820098D7A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDDDD9220E843820098D7A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECDDDDAB20E843820098D7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECDDDDAC20E843820098D7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECDDDDAE20E843820098D7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NBA Encyclopedia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zach.NBA-Encyclopedia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECDDDDAF20E843820098D7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NBA Encyclopedia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zach.NBA-Encyclopedia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECDDDDB120E843820098D7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NBA EncyclopediaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zach.NBA-EncyclopediaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBA Encyclopedia.app/NBA Encyclopedia";
+			};
+			name = Debug;
+		};
+		ECDDDDB220E843820098D7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NBA EncyclopediaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zach.NBA-EncyclopediaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBA Encyclopedia.app/NBA Encyclopedia";
+			};
+			name = Release;
+		};
+		ECDDDDB420E843820098D7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NBA EncyclopediaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zach.NBA-EncyclopediaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NBA Encyclopedia";
+			};
+			name = Debug;
+		};
+		ECDDDDB520E843820098D7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NBA EncyclopediaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zach.NBA-EncyclopediaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NBA Encyclopedia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECDDDD8020E843810098D7A3 /* Build configuration list for PBXProject "NBA Encyclopedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDDDDAB20E843820098D7A3 /* Debug */,
+				ECDDDDAC20E843820098D7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDDDDAD20E843820098D7A3 /* Build configuration list for PBXNativeTarget "NBA Encyclopedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDDDDAE20E843820098D7A3 /* Debug */,
+				ECDDDDAF20E843820098D7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDDDDB020E843820098D7A3 /* Build configuration list for PBXNativeTarget "NBA EncyclopediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDDDDB120E843820098D7A3 /* Debug */,
+				ECDDDDB220E843820098D7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDDDDB320E843820098D7A3 /* Build configuration list for PBXNativeTarget "NBA EncyclopediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDDDDB420E843820098D7A3 /* Debug */,
+				ECDDDDB520E843820098D7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECDDDD7D20E843810098D7A3 /* Project object */;
+}
