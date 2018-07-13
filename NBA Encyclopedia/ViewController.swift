@@ -8,7 +8,18 @@
 
 import UIKit
 
+var entry = ""
+
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var outlet: UITextField!
+    
+    @IBAction func ButtonAction(_ sender: UIButton) {
+        if (outlet.text != ""){
+            entry = outlet.text!
+            performSegue(withIdentifier: "segue", sender: self)
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
