@@ -99,9 +99,9 @@
 		ECDDDD8720E843810098D7A3 /* NBA Encyclopedia */ = {
 			isa = PBXGroup;
 			children = (
-				ECDDDDB620E85C2C0098D7A3 /* SecondViewController.swift */,
 				ECDDDD8820E843810098D7A3 /* AppDelegate.swift */,
 				ECDDDD8A20E843810098D7A3 /* ViewController.swift */,
+				ECDDDDB620E85C2C0098D7A3 /* SecondViewController.swift */,
 				ECDDDD8C20E843810098D7A3 /* Main.storyboard */,
 				ECDDDD8F20E843820098D7A3 /* Assets.xcassets */,
 				ECDDDD9120E843820098D7A3 /* LaunchScreen.storyboard */,

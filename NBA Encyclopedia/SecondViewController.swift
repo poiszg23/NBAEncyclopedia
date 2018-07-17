@@ -10,8 +10,8 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
-    @IBOutlet weak var label: UILabel!
-    
+
+    @IBOutlet weak var text: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,6 @@ class SecondViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        label.text = entry
     }
 
     override func didReceiveMemoryWarning() {
